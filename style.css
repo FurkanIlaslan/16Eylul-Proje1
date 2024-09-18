@@ -255,3 +255,110 @@ body{
     color: #3E4B39;
     background-color: #E5E4CA;
 }
+
+/* ! Footer Section */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E5E4CA;
+    padding: 30px 5%;
+}
+
+footer .box{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+}
+
+footer h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #3E4B39;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+footer p {
+    color: #3E4B39;
+}
+
+footer .footer-list li a{
+    color: #3E4B39;
+}
+
+
+footer .center img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+footer input{
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: 2px solid #3E4B39;
+    color: #3E4B39;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    color: #3E4B39;
+}
+
+footer input:focus{
+    outline: 0;
+}
+
+.social-media{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media .facebook,
+.social-media .instagram,
+.social-media .youtube{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3E4B39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.social-media a{
+    color: white;
+}
+
+.social-media .facebook:hover{
+    background-color: blue;
+}
+.social-media .instagram:hover{
+    background-color: purple;
+}
+.social-media .youtube:hover{
+    background-color: red;
+}
+
+.social-media i{
+    transition: 0.5s all ease-in;
+}
+
+.social-media i:hover{
+    transform: scale(1.2) rotate(360deg);
+}
+
+.designer{
+    text-align: center;
+    background-color: #3E4B39;
+    padding: 1%;
+    color: #E5E4CA;
+}
